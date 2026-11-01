@@ -1,29 +1,35 @@
-# Dashboard de Análise de Crescimento de Usuários para Edtech com SQL
+# Dashboard de crescimento de usuários para edtech (SQL + Metabase)
 
-## Este projeto consiste na criação de um dashboard utilizando SQL e Metabase para analisar dados de uma empresa Edtech, com o objetivo de aumentar o número de usuários cadastrados.
+Dashboard em Metabase, construído sobre consultas SQL, para entender os leads de uma edtech e definir ações que aumentem o número de usuários cadastrados.
 
-### Ferramentas Utilizadas
-•	Metabase: Ferramenta de visualização de dados utilizada para criar o dashboard.
+![Dashboard](DashBoard%20Edtech/Dashboard%20Edtech.png)
 
-•	SQL: Linguagem utilizada para realizar as consultas e análises dos dados.
+## Problema
 
-### Estrutura dos Dados
-Os dados utilizados no projeto estão distribuídos em várias tabelas, contendo informações específicas sobre os leads e suas interações com a empresa.
+A edtech queria crescer a base de cadastros, mas não sabia quem eram os leads, como eles consumiam o conteúdo nem por qual plataforma respondiam melhor.
 
-### Desenvolvimento
-- Conexão com o Metabase
-  
-  Utilizei as credenciais fornecidas para acessar o Metabase e conectar às tabelas de dados.
-- Consultas SQL
-  
-  Realizei consultas SQL nas tabelas para obter os dados necessários para a criação do dashboard. As consultas podem ser encontradas na pasta sql_queries deste repositório.
-- Criação dos Gráficos
-  
-  Utilizei o Metabase para criar diversos tipos de gráficos, como gráficos de pizza, cartões, barras, tabelas e linhas, com base nas consultas SQL realizadas.
-- Construção do Dashboard
-  
-  Organizei os gráficos no Metabase, montando um dashboard completo que permite a visualização e análise dos dados de forma clara e objetiva.
+## Solução
 
-### Conclusão
+Cinco consultas SQL sobre as tabelas de leads, cada uma virando um gráfico no Metabase, reunidas em um dashboard único:
 
-O projeto foi concluído com sucesso, atingindo 100% de aproveitamento. O dashboard criado fornece insights valiosos para a equipe de negócios da Edtech, permitindo o desenvolvimento de estratégias eficazes para aumentar o número de usuários cadastrados.
+| Pergunta | Visualização |
+|---|---|
+| Quantos leads são homens e quantos são mulheres? | pizza |
+| Qual é a idade média dos leads? | cartão |
+| Quantos leads há por grau de escolaridade? | barras |
+| Qual é a média de conteúdo assistido por idioma (só quem assistiu mais de 50%)? | tabela |
+| Quantas ligações foram atendidas por plataforma? | linha |
+
+## Resultado
+
+- Dashboard com o perfil dos leads e o engajamento por idioma e plataforma. Os prints estão na pasta `Consultas SQL`.
+- Apresentação com planos de ação derivados da análise (`DNC_Desafio 3 - GS.pdf`).
+- Desafio da formação Cientista de Dados (DNC), concluído com nota máxima.
+
+## Stack
+
+SQL · Metabase
+
+---
+
+Feito por [Guilherme Santos](https://portifolio-guilherme-santos.vercel.app) · [LinkedIn](https://www.linkedin.com/in/guilherme-santos-dataeng)
