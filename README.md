@@ -1,3 +1,5 @@
+🇧🇷 **Português** · [🇺🇸 English](README.en.md)
+
 # Dashboard de crescimento de usuários para edtech (SQL + Metabase)
 
 Dashboard em Metabase, construído sobre consultas SQL, para entender os leads de uma edtech e definir ações que aumentem o número de usuários cadastrados.
